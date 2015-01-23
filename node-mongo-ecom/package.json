@@ -1,0 +1,22 @@
+{
+  "name": "ecom",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+       "node",
+       "messaging",
+       "system"
+     ],
+  "author": "Tridib Chakraborty",
+  "license": "Own",
+  "dependencies": {
+    "express": "3.2.6",
+    "ejs": "*",
+    "mongodb": "1.4.10",
+	"cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0"
+  }
+}
