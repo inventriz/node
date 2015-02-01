@@ -1,0 +1,20 @@
+{
+  "name": "gridstore",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node saveImage.js"
+  },
+  "keywords": [
+       "node",
+       "messaging",
+       "system"
+     ],
+  "author": "inventriz",
+  "license": "Own",
+  "dependencies": {    
+    "mongodb": "1.4.10",
+    "gridfs-stream" : "*",
+    "fs" : "*"
+  }
+}
