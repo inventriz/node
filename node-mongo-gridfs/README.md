@@ -9,6 +9,7 @@ This code example will show how to use node grid-stream package to store and ret
 
 - Navigate to the project folder
 - Run the following command
+
 node service/saveImage.js
 
 ## Developing
