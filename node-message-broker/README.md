@@ -19,7 +19,7 @@ port - mention the port where you want to run the server
 - open command prompt
 - navigate to the project folder
 
-node socketClient.js <name1> <host> <port>
+node socketClient.js [name1] [host] [port]
 
 name - some name to identify the client e.g. client1
 host - remote server host to connect to
@@ -30,7 +30,7 @@ port - port on which the server is running
 - navigate to the project folder
 - run another client 
 
-node socketClient.js <name2> <host> <port>
+node socketClient.js [name1] [host] [port]
 
 ### Similarly you can run other clients as well
 
