@@ -1,0 +1,20 @@
+{
+  "name": "ecom",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node msgbrokerServer.js"
+  },
+  "keywords": [
+       "node",
+       "messaging",
+       "system"
+     ],
+  "author": "inventriz",
+  "license": "Own",
+  "dependencies": {    
+    "mongodb": "1.4.10",
+	"cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0"
+  }
+}
