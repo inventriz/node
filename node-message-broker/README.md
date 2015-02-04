@@ -17,7 +17,7 @@ port - mention the port where you want to run the server
 
 ### Run the client 1
 - open command prompt
-- navigate to the project folder
+- navigate to the project folder and run the following command
 
 node socketClient.js [name1] [host] [port]
 
@@ -28,14 +28,14 @@ port - port on which the server is running
 ### Run the client 2
 - open command prompt
 - navigate to the project folder
-- run another client 
+- run another client with the following command
 
 node socketClient.js [name1] [host] [port]
 
 ### Similarly you can run other clients as well
 
 - Go to any client command prompt
-- Type anything and press <enter>
+- Type anything and press [enter]
 - You will see this typed string is brodcasted across all the other client
 - This is happening using TCP socket communication 
 
