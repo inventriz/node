@@ -5,11 +5,13 @@ This code example will show how to use node to develop a simple message broker. 
 
 ## Usage
 
+
+
+### Run the server
 - Navigate to the project folder
 - Run the following command
 
-### Run the server
-node msgbrokerServer.js <port>
+node msgbrokerServer.js [port]
 
 port - mention the port where you want to run the server
 
