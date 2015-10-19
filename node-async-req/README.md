@@ -15,7 +15,14 @@ This is a sample application to demo parallelism from browser using async.js mod
 
 ## Developing
 
-![Alt text](https://github.com/inventriz/node/blob/master/node-async-req/public/images/main1js.jpg?raw=true "Call graph before parallelism")
+Call graph before parallelism
+
+![Alt text](https://github.com/inventriz/node/blob/master/node-async-req/public/images/mainjs.jpg?raw=true "Call graph before parallelism")
+
+## parallel request for image and review for each search result
+Call graph 2 with image and search request in parallel
+
+![Alt text](https://github.com/inventriz/node/blob/master/node-async-req/public/images/main1js.jpg?raw=true "Call graph after parallelism")
 
 ### Tools
 
