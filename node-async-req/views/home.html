@@ -1,0 +1,10 @@
+{{#if resultCount}}
+	<div>
+		Search Results: <span>{{resultCount}}</span> results found.
+	</div>
+	<div>
+		{{#each results}}
+		  <li><a class="get-recipe" href="/getrecipe/{{RecipeID}}">{{Title}}</a> -- {{Cuisine}} -- {{Category}}</li>
+		{{/each}}
+	</div>
+{{/if}}
