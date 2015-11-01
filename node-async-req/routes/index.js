@@ -36,7 +36,7 @@ router.get('/search', function (req, res){
 			customCircuitBreaker(srchUrl, 3, function(err, data){
 				
 				if(err){
-					console.log("Error occurred in circuit breaker. Service could not be connected"+err);
+					console.log("Error occurred in circuit breaker. Service could not be connected "+err);
 					console.log("Sending a default response");
 					var resData = {};
 					resData['count'] = 0;
@@ -75,7 +75,7 @@ router.get('/image/:id', function (req, res){
 			 */
 			customCircuitBreaker(imgUrl, 3, function(err, data){				
 				if(err){
-					console.log("Error occurred in circuit breaker. Service could not be connected"+err);
+					console.log("Error occurred in circuit breaker. Service could not be connected. "+err);
 					console.log("Sending a default response");
 					var resData = {};
 					resData['results'] = [];
@@ -112,7 +112,7 @@ router.get('/review/:id', function (req, res){
 			 */
 			customCircuitBreaker(revUrl, 3, function(err, data){				
 				if(err){
-					console.log("Error occurred in circuit breaker. Service could not be connected"+err);
+					console.log("Error occurred in circuit breaker. Service could not be connected. "+err);
 					console.log("Sending a default response");
 					var resData = {};
 					resData['count'] = 0;
